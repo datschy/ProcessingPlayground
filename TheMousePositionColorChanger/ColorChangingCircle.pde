@@ -4,12 +4,12 @@ class ColorChangingCircle {
   
   ColorChangingCircle() {
     this.radius = 80;
-    this.valueVariation = 50;
+    this.valueVariation = 80;
   }
   
   ColorChangingCircle(float radius) {
     this.radius = radius;
-    this.valueVariation = 60;
+    this.valueVariation = 80;
   }
   
   ColorChangingCircle(float radius, float valueVariation) {
@@ -35,6 +35,5 @@ class ColorChangingCircle {
     
     return color(selectedRed, 0, selectedBlue);
   }
-  
   
 }
