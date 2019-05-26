@@ -26,8 +26,8 @@ class ColorChangingCircle {
     float positionX = mouseX;
     float positionY = mouseY;
     
-    float value = 255 - (positionX/sizeX) * valueVariation;
-    float blueScale = positionY/sizeY;
+    float value = 255 - (positionX/width) * valueVariation;
+    float blueScale = positionY/height;
     float redScale = 1 - blueScale;
     
     int selectedBlue = int(value * blueScale);
